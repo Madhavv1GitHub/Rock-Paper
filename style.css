@@ -1,0 +1,91 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+body
+{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    box-sizing: border-box;
+    flex-direction: column;
+}
+
+.heading
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 15%;
+    background-color: #222222;
+    color: white;
+    font-family: 'Pixelify Sans', sans-serif;
+    font-size: 30px;
+    color: rgb(226, 226, 13);
+}
+
+.content
+{
+    height: 85%;
+    width: 100%;
+    background-color: #333333;
+    color: rgb(214, 207, 207);
+}
+
+.info
+{
+    display: flex;
+    flex-direction: column;
+    height: 12%;
+    padding-top: 15px;
+    align-items: center;
+    width: 100%;
+    font-family: 'Acme', sans-serif;
+}
+
+.game 
+{
+    height: 50%;
+    width: 100%;
+    color: rgb(214, 207, 207);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:140px;
+    
+}
+
+.controls
+{
+    height: 30%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+    
+}
+
+.rock,.paper,.scissor
+{
+    background-color: #5a5656;
+    height: 110px;
+    border-radius: 18px;
+    font-size:70px;
+    border:0px;
+}
+
+.rock:hover,.paper:hover,.scissor:hover
+{
+    background-color: #9c9898;
+}
+
+.footer
+{
+    height: 5%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
